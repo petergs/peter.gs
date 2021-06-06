@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/fonts.css">
+    
+    <title>Peter Stratis</title>
+    <link rel="icon" type="image/png" href="/assets/img/favicon.ico" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <script src="/js/dark.js" defer=""></script>
+
+</head>
+
+
+<html>
+<!DOCTYPE html>
+<html>
+
+<body>
+  <header class="site-header">
+
+    <div class="wrapper">
+      <a class="muted small" href="https://peter.gs">Peter Stratis</a>
+    </div>
+  </header>
+</body>
+
+</html>
+
+<h1>Learning Splunk Through BOTS</h1>
+<p class="post-meta"><time itemprop="datePublished">April 30, 2021</time>
+</p>
+<p>On May 14th, I participated in Splunk&rsquo;s BOTS CTF for the first time and it was a ton of fun! I created a team with someone I met in the <a href="https://wildwesthackinfest.com/antisyphon/getting-started-in-security-with-bhis-and-mitre-attck-john-strand/">BHIS Getting Started in Security</a> Discord. Neither of us had production experience with Splunk, and we came in 56 out of 209 teams. Though I can&rsquo;t write in too much detail about the challenges since this version of BOTS is still running, here are some resources I used to prepare.</p>
+<p><img src="/images/bots-score.png" alt="BOTSv5 Score"></p>
+<h2 id="accessing-prior-datasets">Accessing Prior Datasets</h2>
+<p>My exposure to Splunk prior to this was through completing challenges from previous versions on BOTS. The current version is v5, but Splunk <a href="https://www.splunk.com/en_us/blog/security/botsv3-dataset-released.html">releases older verisons</a> after they&rsquo;ve finished running them. To date, versions 1-3 have been released.</p>
+<p>Released versions can be found on Splunk&rsquo;s Github. The questions, answers, and hints are not part of this download unfortunately. For that, you&rsquo;ll have to email <a href="mailto:bots@splunk.com">bots@splunk.com</a>, and they&rsquo;ll reply with a download link. They responded to my inquiry in less than 24 hours.</p>
+<p><img src="/images/bots-email.png" alt="Email bots at spunk"></p>
+<p>Each version of BOTS has utilized different data Sourcetypes and Add-Ons, so each repo&rsquo;s README has relevant instructions for configuring Splunk appropriately.</p>
+<ul>
+<li><a href="https://github.com/splunk/botsv3">https://github.com/splunk/botsv3</a></li>
+<li><a href="https://github.com/splunk/botsv2">https://github.com/splunk/botsv2</a></li>
+<li><a href="https://github.com/splunk/botsv1">https://github.com/splunk/botsv1</a></li>
+</ul>
+<p>Splunk has also open sourced their <a href="https://github.com/splunk/SA-ctf_scoreboard">scoreboard app</a> if you&rsquo;re interested in running that to get an authentic experience. Personally, I just ran with the provided csv files.</p>
+<h2 id="bots-walkthroughs">BOTS Walkthroughs</h2>
+<p>I had success running both the v2 and v3 datasets in a single instance. I opted to run it in a Debian 10 virtual machine with KVM.</p>
+<p>I first worked through the BOTSv3 dataset which provided a good introduction. After a while, I was hitting some roadblocks in my understanding, so I switched to working through some of the easier challenges in v2. Shortly thereafter, I found <a href="https://splunkbase.splunk.com/app/4430/">this app</a>, which provided a nice guide for the APT scenario in BOTSv2. This helped improve my overall understanding of Splunk and gave me some ideas on how to approach questions I missed in v3.</p>
+<p>There&rsquo;s also <a href="https://www.youtube.com/watch?v=RXDbir6B5mE">this</a> fantastic walkthrough on v3.</p>
+
+
+<footer>
+    <div>
+        <h3><a href="https://peter.gsposts">Back to all posts</a></h3>
+    </div>
+    <hr>
+    <p>Go <a href="https://peter.gs/index.xml">here</a> for an RSS feed.</p>
+</footer>
+
+</html>

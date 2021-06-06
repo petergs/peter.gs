@@ -3,7 +3,7 @@ body {
   line-height: 1.5em;
   font-size: 1.1em;
   color: #e5e5e5;
-  max-width: 40rem;
+  max-width: 45rem;
   padding: 2rem;
   margin: auto;
   background: #22313c; 
@@ -14,7 +14,7 @@ img {
   max-width: 100%; }
 
 a {
-  color: #659063; }
+  color: #49A0D6; }
 
 h1, h2, strong {
   color: #e5e5e5; }

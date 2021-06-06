@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Peter Stratis</title>
+    <title>Posts on petergs</title>
     <link>https://peter.gs/posts/</link>
-    <description>Recent content in Posts on Peter Stratis</description>
+    <description>Recent content in Posts on petergs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 May 2021 19:03:00 -0400</lastBuildDate><atom:link href="https://peter.gs/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 30 Apr 2021 13:48:47 -0400</lastBuildDate><atom:link href="https://peter.gs/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Init</title>
-      <link>https://peter.gs/posts/init/</link>
-      <pubDate>Sat, 29 May 2021 19:03:00 -0400</pubDate>
+      <title>Learning Splunk Through BOTS</title>
+      <link>https://peter.gs/posts/bots/</link>
+      <pubDate>Fri, 30 Apr 2021 13:48:47 -0400</pubDate>
       
-      <guid>https://peter.gs/posts/init/</guid>
-      <description>This is my blog.</description>
+      <guid>https://peter.gs/posts/bots/</guid>
+      <description>On May 14th, I participated in Splunk&amp;rsquo;s BOTS CTF for the first time and it was a ton of fun! I created a team with someone I met in the BHIS Getting Started in Security Discord. Neither of us had production experience with Splunk, and we came in 56 out of 209 teams. Though I can&amp;rsquo;t write in too much detail about the challenges since this version of BOTS is still running, here are some resources I used to prepare.</description>
     </item>
     
   </channel>
